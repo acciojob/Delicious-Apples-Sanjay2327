@@ -1,1 +1,16 @@
 /* your code here */
+*{
+	background-color:forestgreen
+}
+.product{
+	display:flex;
+	background-color:;
+	
+}
+.photo-main{
+	background-color:yellow;
+	
+}
+.photo-album{
+	background-color:red;
+}
