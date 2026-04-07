@@ -1,6 +1,6 @@
 /* your code here */
 *{
-	background-color:forestgreen
+	background-color:;
 }
 .product{
 	display:flex;
@@ -8,9 +8,46 @@
 	
 }
 .photo-main{
-	background-color:yellow;
+	background-color:yellowgreen;
+	width:px
 	
 }
 .photo-album{
+	/* background-color:red; */
+	display:flex;
+	align-items:column;
+	
+}
+.list{
+	display:flex;
+	justify-items:space-between;
+	list-style:none;
+	/* list-style-position:inside; */
+	gap:20px;	
+}
+.list2{
+	display:flex;
+	justify-items:space-between;
+	list-style:none;
+	gap:20px;	
+}
+.price{
+	color:red;
+	font-size:50px;
+	text-align:center;
+}
+.product__info{
+	padding:20px;
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+	padding:5px;
+}
+button{
 	background-color:red;
+	color:whitesmoke;
+	border:2px solid yellowgreen;
+	padding:5px;
+	align-items:center;
 }
